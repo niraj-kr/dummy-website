@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Gateway Integration</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <div class="text">
+        <header>Donate & Help!</header>
+        <p>
+          Making a donation is the ultimate sign of solidarity.<br />
+          Actions speak louder than words.
+        </p>
+      </div>
+      <button class="button" type="button">
+        <form>
+          <script
+            src="https://checkout.razorpay.com/v1/payment-button.js"
+            data-payment_button_id="pl_IhwqWa2Da49r7w"
+            async
+          ></script>
+        </form>
+      </button>
+    </div>
+  </body>
+</html>
